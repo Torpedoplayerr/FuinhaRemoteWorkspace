@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "fuinha:pathway_cobblestone"
+  },
+  "result": "fuinha:cobblestone_pathway_slab"
+}

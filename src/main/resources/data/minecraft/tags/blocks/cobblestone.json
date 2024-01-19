@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "fuinha:pathway_cobblestone",
+    "fuinha:cobblestone_pathway_slab",
+    "fuinha:mossy_cobblestone_pathway",
+    "fuinha:mossy_cobblestone_pathway_stairs",
+    "fuinha:cobblestone_pathway_stairs",
+    "fuinha:mossy_cobblestone_pathway_slab"
+  ]
+}

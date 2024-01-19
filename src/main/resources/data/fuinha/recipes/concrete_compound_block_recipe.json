@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "fuinha:concrete_compound"
+    },
+    "1": {
+      "item": "fuinha:concrete_compound"
+    },
+    "2": {
+      "item": "fuinha:concrete_compound"
+    },
+    "3": {
+      "item": "fuinha:concrete_compound"
+    }
+  },
+  "result": {
+    "item": "fuinha:concrete_compound_block",
+    "count": 1
+  }
+}

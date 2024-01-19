@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "fuinha:rough_red_sandstone"
+    },
+    "3": {
+      "item": "fuinha:rough_red_sandstone"
+    },
+    "4": {
+      "item": "fuinha:concrete_compound_block"
+    },
+    "5": {
+      "item": "fuinha:rough_red_sandstone"
+    },
+    "7": {
+      "item": "fuinha:rough_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "fuinha:smooth_red_sandstone",
+    "count": 8
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "fuinha:blocks/cobblestone_mossy",
+    "top": "fuinha:blocks/cobblestone_mossy",
+    "side": "fuinha:blocks/cobblestone_mossy"
+  }
+}

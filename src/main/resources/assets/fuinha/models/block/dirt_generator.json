@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fuinha:blocks/end_stone",
+    "up": "fuinha:blocks/end_stone",
+    "north": "fuinha:blocks/end_bricks",
+    "east": "fuinha:blocks/end_bricks",
+    "south": "fuinha:blocks/end_bricks",
+    "west": "fuinha:blocks/end_bricks",
+    "particle": "fuinha:blocks/end_stone"
+  }
+}

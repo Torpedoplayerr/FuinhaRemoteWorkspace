@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fuinha:blocks/chiseled_sandstone_top",
+    "up": "fuinha:blocks/chiseled_sandstone_top",
+    "north": "fuinha:blocks/chiseled_sandstone_top",
+    "east": "fuinha:blocks/chiseled_sandstone_top",
+    "south": "fuinha:blocks/chiseled_sandstone_top",
+    "west": "fuinha:blocks/chiseled_sandstone_top",
+    "particle": "fuinha:blocks/chiseled_sandstone_top"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "fuinha:raw_concrete_compound"
+  },
+  "result": {
+    "item": "fuinha:concrete_compound"
+  }
+}

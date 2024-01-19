@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "CUSTOM:ConcreteCompoundBlock"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothGranite"
+    },
+    "name": "smooth_granite_recipe",
+    "namespace": "mod"
+  }
+}

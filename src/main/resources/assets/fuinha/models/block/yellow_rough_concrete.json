@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fuinha:blocks/yellow_concrete",
+    "particle": "fuinha:blocks/yellow_concrete"
+  }
+}

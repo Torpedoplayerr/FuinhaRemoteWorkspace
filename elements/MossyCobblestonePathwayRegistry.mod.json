@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MossyCobblestonePathway"
+      },
+      {
+        "value": "CUSTOM:MossyCobblestonePathwaySlab"
+      },
+      {
+        "value": "CUSTOM:MossyCobblestonePathwayStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "mossy_cobblestone_pathway",
+    "namespace": "mod"
+  }
+}

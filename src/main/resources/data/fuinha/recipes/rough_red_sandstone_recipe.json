@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:red_sandstone"
+    },
+    "3": {
+      "item": "minecraft:red_sandstone"
+    },
+    "4": {
+      "item": "minecraft:red_sand"
+    },
+    "5": {
+      "item": "minecraft:red_sandstone"
+    },
+    "7": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "fuinha:rough_red_sandstone",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "fuinha:bricky_stone_bricks"
+  },
+  "result": "fuinha:bricky_stone_bricks_wall"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
+    },
+    "3": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "4": {
+      "item": "fuinha:concrete_compound_block"
+    },
+    "5": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "8": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "fuinha:bricky_stone_bricks",
+    "count": 4
+  }
+}

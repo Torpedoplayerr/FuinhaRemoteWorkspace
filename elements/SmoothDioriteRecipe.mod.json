@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "CUSTOM:ConcreteCompoundBlock"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothDiorite"
+    },
+    "name": "smooth_diorite_recipe",
+    "namespace": "mod"
+  }
+}

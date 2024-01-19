@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 50,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:CrackedBrickyStoneBricks"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:BrickyStoneBricks"
+    },
+    "name": "bricky_stone_bricks_recipe_2",
+    "namespace": "mod"
+  }
+}

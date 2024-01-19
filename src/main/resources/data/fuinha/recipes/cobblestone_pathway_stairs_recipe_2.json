@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fuinha:pathway_cobblestone"
+    },
+    {
+      "item": "fuinha:pathway_cobblestone"
+    },
+    {
+      "item": "fuinha:pathway_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "fuinha:cobblestone_pathway_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_nugget",
+    "customModelName": "Normal",
+    "name": "Projectile 9mm",
+    "specialInfo": [
+      "You shouldn't have this!"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 10.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelbullet_9mm",
+    "customBulletModelTexture": "texture_9mm.png",
+    "onBulletHitsBlock": {
+      "name": "Projectile9mmProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "Projectile9mmProjectileHitsLivingEntity"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fuinha:block/mossy_cobblestone_pathway_slab"
+    },
+    "type=top": {
+      "model": "fuinha:block/mossy_cobblestone_pathway_slab_top"
+    },
+    "type=double": {
+      "model": "fuinha:block/mossy_cobblestone_pathway_slab_full"
+    }
+  }
+}

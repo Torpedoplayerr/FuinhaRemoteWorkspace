@@ -1,0 +1,59 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlackSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:BlueSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:BrownSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:CyanSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:GraySmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:GreenSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:LightBlueSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:LightGraySmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:LimeSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:MagentaSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:OrangeSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:PinkSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:PurpleSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:RedSmoothConcrete"
+      },
+      {
+        "value": "CUSTOM:YellowSmoothConcrete"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "smooth_concrete",
+    "namespace": "mod"
+  }
+}

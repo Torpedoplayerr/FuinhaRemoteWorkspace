@@ -1,0 +1,56 @@
+{
+  "disparo": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "fuinha:single-gunshot-54-40780",
+        "stream": false
+      }
+    ]
+  },
+  "tiro_bloco": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "fuinha:splat2ogg-14668",
+        "stream": false
+      }
+    ]
+  },
+  "tiro_entity": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "fuinha:very-loud-splat-88998",
+        "stream": false
+      }
+    ]
+  },
+  "metal_clang": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fuinha:metal-clang-sound-81634",
+        "stream": false
+      }
+    ]
+  },
+  "reload": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "fuinha:metallic-attach-release-35932",
+        "stream": false
+      }
+    ]
+  },
+  "frying_pan": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "fuinha:metallic-clang-100473",
+        "stream": false
+      }
+    ]
+  }
+}

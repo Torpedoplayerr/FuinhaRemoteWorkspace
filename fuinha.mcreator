@@ -1,0 +1,2860 @@
+{
+  "mod_elements": [
+    {
+      "name": "Mp40ProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MP40"
+    },
+    {
+      "name": "Mp40ProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MP40"
+    },
+    {
+      "name": "Mp40RangedItemUsed",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MP40"
+    },
+    {
+      "name": "Mp40",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mp_40",
+      "path": "~/MP40"
+    },
+    {
+      "name": "Mp40Unreloaded",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_unreloaded",
+      "path": "~/MP40"
+    },
+    {
+      "name": "Magazine32Bullets",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magazine_32_bullets",
+      "path": "~/MP40"
+    },
+    {
+      "name": "Mp40UnreloadedRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_unreloaded_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MP40"
+    },
+    {
+      "name": "Firearm",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firearm",
+      "path": "~/Extras"
+    },
+    {
+      "name": "Projectile9mmProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_9mm_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Projectiles/9mm"
+    },
+    {
+      "name": "Projectile9mmProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_9mm_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Projectiles/9mm"
+    },
+    {
+      "name": "Projectile9mm",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile_9mm",
+      "path": "~/Projectiles/9mm"
+    },
+    {
+      "name": "A",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "path": "~/Tests"
+    },
+    {
+      "name": "AimSystem",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aim_system",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "viewport",
+            "type": "viewport"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras"
+    },
+    {
+      "name": "Blind",
+      "type": "potioneffect",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blind",
+      "path": "~/Extras"
+    },
+    {
+      "name": "BlindEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blind_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Extras"
+    },
+    {
+      "name": "BlindEffectExpires",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blind_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Extras"
+    },
+    {
+      "name": "ARightclicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tests"
+    },
+    {
+      "name": "RecoilSystem",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recoil_system",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Extras"
+    },
+    {
+      "name": "Blesser",
+      "type": "command",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blesser",
+      "path": "~/Extras"
+    },
+    {
+      "name": "FuinhasCraftingTable",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuinhas_crafting_table",
+      "path": "~/Extras"
+    },
+    {
+      "name": "NoAncientDebris",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_ancient_debris",
+      "path": "~/Extras"
+    },
+    {
+      "name": "NoAncientDebris2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_ancient_debris_2",
+      "path": "~/Extras"
+    },
+    {
+      "name": "Tier1",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1",
+      "path": "~/Extras/Tiers"
+    },
+    {
+      "name": "Fuinha",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuinha",
+      "path": "~/Extras"
+    },
+    {
+      "name": "Tier2",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2",
+      "path": "~/Extras/Tiers"
+    },
+    {
+      "name": "Tier1Recipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_1_recipe",
+      "path": "~/Extras/Tiers"
+    },
+    {
+      "name": "Tier2Recipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_recipe",
+      "path": "~/Extras/Tiers"
+    },
+    {
+      "name": "RoughConcrete",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "WhiteRoughConcrete",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "LightBlueRoughConcrete",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BlueRoughConcrete",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "CyanRoughConcrete",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BrownRoughConcrete",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "LimeRoughConcrete",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "GreenRoughConcrete",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "PinkRoughConcrete",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "MagentaRoughConcrete",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "YellowRoughConcrete",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "OrangeRoughConcrete",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "RedRoughConcrete",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rough_concrete",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "FuinhaBlocks",
+      "type": "tab",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuinha_blocks",
+      "path": "~/Extras"
+    },
+    {
+      "name": "RoughConcreteTag",
+      "type": "tag",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete_tag",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "RawConcreteCompound",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_concrete_compound",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "ConcreteCompound",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_compound",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "ConcreteCompoundBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_compound_block",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "RawConcreteCompoundRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_concrete_compound_recipe",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "ConcreteCompoundRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_compound_recipe",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "RoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "WhiteRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "LightBlueRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BlueRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "CyanRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BrownRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "LimeRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "GreenRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "PinkRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "MagentaRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "YellowRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "OrangeRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "RedRoughConcreteRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rough_concrete_recipe",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BlackSmoothConcrete",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BlueSmoothConcrete",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BrownSmoothConcrete",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "CyanSmoothConcrete",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GraySmoothConcrete",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GreenSmoothConcrete",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LightBlueSmoothConcrete",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LightGraySmoothConcrete",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LimeSmoothConcrete",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "MagentaSmoothConcrete",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "OrangeSmoothConcrete",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "ConcreteCompoundBlockRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_compound_block_recipe",
+      "path": "~/Extras/Concrete"
+    },
+    {
+      "name": "PinkSmoothConcrete",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "PurpleSmoothConcrete",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "RedSmoothConcrete",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "YellowSmoothConcrete",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_smooth_concrete",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "SmoothConcreteTag",
+      "type": "tag",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_concrete_tag",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "SmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BlueSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BrownSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "CyanSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GraySmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GreenSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LigheBlueSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighe_blue_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LightGraySmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LimeSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "MagentaSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "OrangeSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "PinkSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "PurpleSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "RedSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "YellowSmoothConcreteRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_smooth_concrete_recipe",
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "MP40Recipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_40_recipe",
+      "path": "~/MP40"
+    },
+    {
+      "name": "PathwayCobblestone",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathway_cobblestone",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathway",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "PathwayCobblestoneRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathway_cobblestone_recipe",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwayRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_recipe",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwaySlab",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_slab",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayStairs",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_stairs",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwaySlabRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_slab_recipe",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayStairsRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_stairs_recipe",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayStairsRecipe2",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_stairs_recipe_2",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "PathwayCobblestoneUpdateTick",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathway_cobblestone_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwaySlab",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_slab",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwayStairs",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_stairs",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwaySlabUpdateTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_slab_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayStairsUpdateTick",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_stairs_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayRegistry",
+      "type": "tag",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_registry",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwayRegistry",
+      "type": "tag",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_registry",
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CleanerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras"
+    },
+    {
+      "name": "Cleaner",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner",
+      "path": "~/Extras"
+    },
+    {
+      "name": "CleanerRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaner_recipe",
+      "path": "~/Extras"
+    },
+    {
+      "name": "CobblestoneTag",
+      "type": "tag",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_tag",
+      "path": "~/Extras/Cobblestone"
+    },
+    {
+      "name": "StonierStone",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonier_stone",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "StonierStoneRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonier_stone_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothDiorite",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_diorite",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothDioriteRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_diorite_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothDioriteTiles",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_diorite_tiles",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothGranite",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_granite",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothGraniteTiles",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_granite_tiles",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothGraniteRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_granite_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothDioriteTilesRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_diorite_tiles_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothGraniteTilesRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_granite_tiles_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RoughSandStone",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_sand_stone",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothSandStone",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_sand_stone",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RoughRedSandstone",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_red_sandstone",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothRedSandstone",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_red_sandstone",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RoughSandstoneRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_sandstone_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothSandStoneRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_sand_stone_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RoughRedSandstoneRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_red_sandstone_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SmoothRedSandstoneRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_red_sandstone_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "StoneTag",
+      "type": "tag",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_tag",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SandstoneTag",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_tag",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "BrickyStoneBricks",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricks",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_recipe",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksRecipe2",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_recipe_2",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "RoughConcreteExplosion",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "RoughConcreteTag2",
+      "type": "tag",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete_tag_2",
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "RoughConcreteBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rough_concrete_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Rough"
+    },
+    {
+      "name": "BlackSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BlueSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "BrownSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "CyanSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GraySmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "GreenSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LightBlueSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LightGraySmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "LimeSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "MagentaSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "OrangeSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "PinkSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "PurpleSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "RedSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "YellowSmoothConcreteBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_smooth_concrete_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Concrete/Smooth"
+    },
+    {
+      "name": "SandstoneTiles",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_tiles",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RedSandstoneTiles",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_tiles",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SandstoneExplosion",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RedSandstoneExplosion",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "SandstoneTilesRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_tiles_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "RedSandstoneTilesRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sandstone_tiles_recipe",
+      "path": "~/Extras/Cobblestone/Stones"
+    },
+    {
+      "name": "PathwayCobblestoneBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pathway_cobblestone_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwayBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwaySlabBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_slab_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "CobblestonePathwayStairsBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_pathway_stairs_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwaySlabBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_slab_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "MossyCobblestonePathwayStairsBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_cobblestone_pathway_stairs_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/Cobblestone Pathway"
+    },
+    {
+      "name": "BrickyStoneBricksWall",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_wall",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksWall",
+      "type": "block",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_wall",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksWallBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_wall_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksWallBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_wall_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksWallRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_wall_recipe",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksWallRecipe2",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_wall_recipe_2",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksWallRecipe3",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_wall_recipe_3",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksSlab",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_slab",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksSlab",
+      "type": "block",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_slab",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksSlabBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_slab_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksSlabBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_slab_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksStairs",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_stairs",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksStairs",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_stairs",
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "BrickyStoneBricksStairsBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricky_stone_bricks_stairs_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "CrackedBrickyStoneBricksStairsBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_bricky_stone_bricks_stairs_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Cobblestone/BrickyCobblestone"
+    },
+    {
+      "name": "DirtGenerator",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator",
+      "path": "~/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorGUi",
+      "type": "gui",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_g_ui",
+      "path": "~/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Extras/Generators"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "blessed",
+      "type": "map_boolean",
+      "scope": "global",
+      "value": "new HashMap\u003c\u003e()"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "disparo",
+      "files": [
+        "single-gunshot-54-40780"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "tiro_bloco",
+      "files": [
+        "splat2ogg-14668"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "tiro_entity",
+      "files": [
+        "very-loud-splat-88998"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "metal_clang",
+      "files": [
+        "metal-clang-sound-81634"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "reload",
+      "files": [
+        "metallic-attach-release-35932"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "frying_pan",
+      "files": [
+        "metallic-clang-100473"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.fuinha.magenta_rough_concrete": "Magenta Rough Concrete",
+      "block.fuinha.cracked_bricky_stone_bricks_stairs": "Cracked Bricky Stone Bricks Stairs",
+      "subtitles.tiro_bloco": "",
+      "block.fuinha.purple_smooth_concrete": "Purple Smooth Concrete",
+      "item.fuinha.cleaner": "Cleaner",
+      "block.fuinha.mossy_cobblestone_pathway_slab": "Mossy Cobblestone Pathway ",
+      "block.fuinha.concrete_compound_block": "Concrete Compound Block",
+      "block.fuinha.light_gray_smooth_concrete": "Light Gray Smooth Concrete",
+      "block.fuinha.pink_rough_concrete": "Pink Rough Concrete",
+      "item.fuinha.tier_2": "Tier 2",
+      "block.fuinha.lime_rough_concrete": "Lime Rough Concrete",
+      "block.fuinha.cobblestone_pathway_stairs": "Cobblestone Pathway",
+      "item.fuinha.tier_1": "Tier 1",
+      "block.fuinha.blue_rough_concrete": "Blue Rough Concrete",
+      "block.fuinha.brown_smooth_concrete": "Brown Smooth Concrete",
+      "subtitles.frying_pan": "",
+      "block.fuinha.pink_smooth_concrete": "Pink Smooth Concrete",
+      "block.fuinha.stonier_stone": "Stonier Stone",
+      "item.fuinha.mp_40": "MP40",
+      "block.fuinha.light_blue_rough_concrete": "Light Blue Rough Concrete",
+      "block.fuinha.fuinhas_crafting_table": "Fuinha\u0027s Crafting Table",
+      "block.fuinha.rough_red_sandstone": "Rough SandStone",
+      "block.fuinha.mossy_cobblestone_pathway": "Mossy Cobblestone Pathway ",
+      "block.fuinha.red_rough_concrete": "Red Rough Concrete",
+      "block.fuinha.cracked_bricky_stone_bricks": "Cracked Bricky Stone Bricks",
+      "item.fuinha.magazine_32_bullets": "32 9mm Bullets Magazine",
+      "subtitles.metal_clang": "",
+      "block.fuinha.lime_smooth_concrete": "Lime Smooth Concrete",
+      "block.fuinha.magenta_smooth_concrete": "Magenta Smooth Concrete",
+      "block.fuinha.orange_rough_concrete": "Orange Rough Concrete",
+      "block.fuinha.green_rough_concrete": "Green Rough Concrete",
+      "block.fuinha.red_smooth_concrete": "Red Smooth Concrete",
+      "subtitles.tiro_entity": "",
+      "block.fuinha.mossy_cobblestone_pathway_stairs": "Mossy Cobblestone Pathway ",
+      "block.fuinha.green_smooth_concrete": "Green Smooth Concrete",
+      "block.fuinha.bricky_stone_bricks_slab": "Bricky Stone Bricks Slab",
+      "block.fuinha.yellow_rough_concrete": "Yellow Rough Concrete",
+      "item.fuinha.a": "A",
+      "block.fuinha.light_blue_smooth_concrete": "Light Blue Smooth Concrete",
+      "block.fuinha.red_sandstone_tiles": "SandStone Tiles",
+      "block.fuinha.smooth_diorite": "Smooth Diorite",
+      "block.fuinha.cracked_bricky_stone_bricks_slab": "Cracked Bricky Stone Bricks Wall",
+      "block.fuinha.bricky_stone_bricks": "Bricky Stone Bricks",
+      "block.fuinha.brown_rough_concrete": "Brown Rough Concrete",
+      "block.fuinha.smooth_red_sandstone": "Smooth SandStone",
+      "itemGroup.tabfuinha_blocks": "Fuinha\u0027s Blocks",
+      "block.fuinha.smooth_sand_stone": "Smooth SandStone",
+      "item.fuinha.mp_40_unreloaded": "MP40 Unloaded",
+      "effect.blind": "Blind",
+      "block.fuinha.black_smooth_concrete": "Black Smooth Concrete",
+      "subtitles.reload": "",
+      "block.fuinha.orange_smooth_concrete": "Orange Smooth Concrete",
+      "block.fuinha.cracked_bricky_stone_bricks_wall": "Cracked Bricky Stone Bricks Wall",
+      "block.fuinha.cyan_rough_concrete": "Cyan Rough Concrete",
+      "block.fuinha.bricky_stone_bricks_wall": "Bricky Stone Bricks Wall",
+      "block.fuinha.smooth_granite": "Smooth Diorite",
+      "block.fuinha.smooth_diorite_tiles": "Smooth Diorite",
+      "item.fuinha.concrete_compound": "Concrete Compound",
+      "block.fuinha.yellow_smooth_concrete": "Yellow Smooth Concrete",
+      "itemGroup.tabfuinha": "Fuinha",
+      "block.fuinha.white_rough_concrete": "White Rough Concrete",
+      "block.fuinha.cyan_smooth_concrete": "Cyan Smooth Concrete",
+      "block.fuinha.rough_sand_stone": "Rough SandStone",
+      "subtitles.disparo": "",
+      "block.fuinha.cobblestone_pathway_slab": "Cobblestone Pathway",
+      "block.fuinha.smooth_granite_tiles": "Smooth Diorite",
+      "block.fuinha.bricky_stone_bricks_stairs": "Bricky Stone Bricks Stairs",
+      "block.fuinha.blue_smooth_concrete": "Blue Smooth Concrete",
+      "block.fuinha.gray_smooth_concrete": "Gray Smooth Concrete",
+      "item.fuinha.projectile_9mm": "Projectile 9mm",
+      "block.fuinha.pathway_cobblestone": "Cobblestone Pathway",
+      "block.fuinha.sandstone_tiles": "SandStone Tiles",
+      "block.fuinha.rough_concrete": "Rough Concrete",
+      "block.fuinha.dirt_generator": "Dirt Generator",
+      "item.fuinha.raw_concrete_compound": "Raw Concrete Compound"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MP40",
+        "children": []
+      },
+      {
+        "name": "Projectiles",
+        "children": [
+          {
+            "name": "9mm",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tests",
+        "children": []
+      },
+      {
+        "name": "Extras",
+        "children": [
+          {
+            "name": "Tiers",
+            "children": []
+          },
+          {
+            "name": "Generators",
+            "children": []
+          },
+          {
+            "name": "Concrete",
+            "children": [
+              {
+                "name": "Rough",
+                "children": []
+              },
+              {
+                "name": "Enlightened",
+                "children": []
+              },
+              {
+                "name": "Smooth",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Cobblestone",
+            "children": [
+              {
+                "name": "Cobblestone Pathway",
+                "children": []
+              },
+              {
+                "name": "BrickyCobblestone",
+                "children": []
+              },
+              {
+                "name": "Stones",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fuinha",
+    "modName": "Fuinha",
+    "version": "0.0.1-SNAPSHOT",
+    "author": "Torpedoplayerr",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Não sei",
+    "modElementsPackage": "net.mcreator.fuinha",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RoughConcrete"
+      },
+      {
+        "value": "CUSTOM:WhiteRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:LightBlueRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:BlueRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:CyanRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:BrownRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:LimeRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:GreenRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:PinkRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:MagentaRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:YellowRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:OrangeRoughConcrete"
+      },
+      {
+        "value": "CUSTOM:RedRoughConcrete"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "rough_concrete",
+    "namespace": "mod"
+  }
+}

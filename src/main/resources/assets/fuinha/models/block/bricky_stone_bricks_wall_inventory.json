@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "fuinha:blocks/cobblestone_6",
+    "particle": "fuinha:blocks/cobblestone_6"
+  }
+}

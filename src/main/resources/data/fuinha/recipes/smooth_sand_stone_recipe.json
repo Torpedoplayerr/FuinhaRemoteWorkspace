@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "fuinha:rough_sand_stone"
+    },
+    "3": {
+      "item": "fuinha:rough_sand_stone"
+    },
+    "4": {
+      "item": "fuinha:concrete_compound_block"
+    },
+    "5": {
+      "item": "fuinha:rough_sand_stone"
+    },
+    "7": {
+      "item": "fuinha:rough_sand_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_sandstone",
+    "count": 8
+  }
+}

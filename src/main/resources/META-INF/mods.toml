@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fuinha"
+version="0.0.1"
+displayName="Fuinha"
+credits="Não sei"
+displayURL="https://mcreator.net"
+authors="Torpedoplayerr"
+
+[[dependencies.fuinha]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

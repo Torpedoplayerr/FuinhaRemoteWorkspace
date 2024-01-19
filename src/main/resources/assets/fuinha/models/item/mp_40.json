@@ -1,0 +1,7 @@
+{
+  "parent": "fuinha:custom/mp40",
+  "textures": {
+    "0": "fuinha:blocks/texture_mp40",
+    "particle": "fuinha:items/texture_mp40"
+  }
+}

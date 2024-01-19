@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "fuinha:smooth_red_sandstone"
+    },
+    "1": {
+      "item": "fuinha:smooth_red_sandstone"
+    },
+    "2": {
+      "item": "fuinha:smooth_red_sandstone"
+    },
+    "3": {
+      "item": "fuinha:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "fuinha:red_sandstone_tiles",
+    "count": 4
+  }
+}

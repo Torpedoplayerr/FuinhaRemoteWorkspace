@@ -1,0 +1,7 @@
+{
+  "parent": "fuinha:custom/9mm_magazine",
+  "textures": {
+    "0": "fuinha:blocks/texture_mp40",
+    "particle": "fuinha:items/texture_mp40"
+  }
+}

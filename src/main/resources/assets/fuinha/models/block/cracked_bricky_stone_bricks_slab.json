@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "fuinha:blocks/cobblestone_1",
+    "top": "fuinha:blocks/cobblestone_1",
+    "side": "fuinha:blocks/cobblestone_1"
+  }
+}

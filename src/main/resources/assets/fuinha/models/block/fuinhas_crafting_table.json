@@ -1,0 +1,13 @@
+{
+  "parent": "fuinha:custom/crafting_bench",
+  "textures": {
+    "all": "fuinha:blocks/og_top",
+    "particle": "fuinha:blocks/og_top",
+    "0": "fuinha:blocks/oak_log",
+    "1": "fuinha:blocks/oak_planks_1_14_textures",
+    "2": "fuinha:blocks/og_top",
+    "3": "fuinha:blocks/stone",
+    "4": "fuinha:blocks/white_wool",
+    "missing": "fuinha:blocks/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "oak_log",
+        "1": "oak_planks_1_14_textures",
+        "2": "og_top",
+        "3": "stone",
+        "4": "white_wool",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

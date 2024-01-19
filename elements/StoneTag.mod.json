@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:StonierStone"
+      },
+      {
+        "value": "CUSTOM:SmoothDiorite"
+      },
+      {
+        "value": "CUSTOM:SmoothGranite"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "stone",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fuinha:blocks/cobblestone_6",
+    "particle": "fuinha:blocks/cobblestone_6"
+  }
+}

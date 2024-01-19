@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RoughSandStone"
+      },
+      {
+        "value": "CUSTOM:RoughRedSandstone"
+      },
+      {
+        "value": "CUSTOM:SmoothSandStone"
+      },
+      {
+        "value": "CUSTOM:SmoothRedSandstone"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "sandstone",
+    "namespace": "minecraft"
+  }
+}

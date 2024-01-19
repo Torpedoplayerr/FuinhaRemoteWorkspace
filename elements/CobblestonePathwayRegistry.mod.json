@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PathwayCobblestone"
+      },
+      {
+        "value": "CUSTOM:CobblestonePathwaySlab"
+      },
+      {
+        "value": "CUSTOM:CobblestonePathwayStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "cobblestone_pathway",
+    "namespace": "mod"
+  }
+}

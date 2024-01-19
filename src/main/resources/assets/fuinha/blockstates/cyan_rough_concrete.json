@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fuinha:block/cyan_rough_concrete"
+    },
+    "facing=east": {
+      "model": "fuinha:block/cyan_rough_concrete",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fuinha:block/cyan_rough_concrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fuinha:block/cyan_rough_concrete",
+      "y": 270
+    }
+  }
+}

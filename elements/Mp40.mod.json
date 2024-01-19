@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "texture_mp40",
+    "customModelName": "mp40:default",
+    "name": "MP40",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:disparo"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Mp40RangedItemUsed"
+    },
+    "bulletPower": 10.0,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelbullet_9mm",
+    "customBulletModelTexture": "texture_9mm.png",
+    "onBulletHitsBlock": {
+      "name": "Mp40ProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "Mp40ProjectileHitsLivingEntity"
+    }
+  }
+}
