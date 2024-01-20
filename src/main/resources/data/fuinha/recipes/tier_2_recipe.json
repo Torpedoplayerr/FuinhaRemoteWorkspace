@@ -1,25 +1,37 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "minecraft:end_crystal"
+    },
     "1": {
-      "item": "minecraft:crying_obsidian"
+      "item": "minecraft:diamond_block"
+    },
+    "2": {
+      "item": "minecraft:end_crystal"
     },
     "3": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:fire_charge"
     },
     "4": {
       "item": "fuinha:tier_1"
     },
     "5": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:emerald"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
     },
     "7": {
-      "item": "minecraft:emerald_block"
+      "item": "fuinha:concrete_compound_block"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
     }
   },
   "result": {

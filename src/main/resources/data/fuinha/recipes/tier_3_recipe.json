@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:dragon_egg"
+    },
+    "3": {
+      "item": "minecraft:diamond_ore"
+    },
+    "4": {
+      "item": "fuinha:tier_2"
+    },
+    "5": {
+      "item": "minecraft:blaze_powder"
+    },
+    "7": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "fuinha:tier_3",
+    "count": 1
+  }
+}

@@ -401,30 +401,12 @@
       "path": "~/Fuinha/Extras"
     },
     {
-      "name": "Tier2",
-      "type": "item",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tier_2",
-      "path": "~/Fuinha/Extras/Tiers"
-    },
-    {
       "name": "Tier1Recipe",
       "type": "recipe",
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tier_1_recipe",
-      "path": "~/Fuinha/Extras/Tiers"
-    },
-    {
-      "name": "Tier2Recipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tier_2_recipe",
       "path": "~/Fuinha/Extras/Tiers"
     },
     {
@@ -2630,6 +2612,42 @@
         ]
       },
       "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "Tier3",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_3",
+      "path": "~/Fuinha/Extras/Tiers"
+    },
+    {
+      "name": "Tier3Recipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_3_recipe",
+      "path": "~/Fuinha/Extras/Tiers"
+    },
+    {
+      "name": "Tier2",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2",
+      "path": "~/Fuinha/Extras/Tiers"
+    },
+    {
+      "name": "Tier2Recipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tier_2_recipe",
+      "path": "~/Fuinha/Extras/Tiers"
     }
   ],
   "variable_elements": [
@@ -2701,12 +2719,13 @@
       "block.fuinha.concrete_compound_block": "Concrete Compound Block",
       "block.fuinha.light_gray_smooth_concrete": "Light Gray Smooth Concrete",
       "block.fuinha.pink_rough_concrete": "Pink Rough Concrete",
-      "item.fuinha.tier_2": "Tier 2",
       "block.fuinha.lime_rough_concrete": "Lime Rough Concrete",
       "block.fuinha.cobblestone_pathway_stairs": "Cobblestone Pathway",
+      "item.fuinha.tier_2": "Tier 2",
       "item.fuinha.tier_1": "Tier 1",
       "block.fuinha.blue_rough_concrete": "Blue Rough Concrete",
       "block.fuinha.brown_smooth_concrete": "Brown Smooth Concrete",
+      "item.fuinha.tier_3": "Tier 3",
       "subtitles.frying_pan": "",
       "block.fuinha.pink_smooth_concrete": "Pink Smooth Concrete",
       "block.fuinha.stonier_stone": "Stonier Stone",

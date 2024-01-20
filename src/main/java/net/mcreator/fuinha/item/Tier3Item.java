@@ -12,12 +12,12 @@ import net.mcreator.fuinha.itemgroup.FuinhaItemGroup;
 import net.mcreator.fuinha.FuinhaModElements;
 
 @FuinhaModElements.ModElement.Tag
-public class Tier2Item extends FuinhaModElements.ModElement {
-	@ObjectHolder("fuinha:tier_2")
+public class Tier3Item extends FuinhaModElements.ModElement {
+	@ObjectHolder("fuinha:tier_3")
 	public static final Item block = null;
 
-	public Tier2Item(FuinhaModElements instance) {
-		super(instance, 199);
+	public Tier3Item(FuinhaModElements instance) {
+		super(instance, 197);
 	}
 
 	@Override
@@ -27,8 +27,8 @@ public class Tier2Item extends FuinhaModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(FuinhaItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("tier_2");
+			super(new Item.Properties().group(FuinhaItemGroup.tab).maxStackSize(1).isImmuneToFire().rarity(Rarity.EPIC));
+			setRegistryName("tier_3");
 		}
 
 		@Override

@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.END_CRYSTAL"
+        "value": ""
       },
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "Blocks.DRAGON_EGG"
       },
       {
-        "value": "Items.END_CRYSTAL"
+        "value": ""
       },
       {
-        "value": "Items.FIRE_CHARGE"
+        "value": "Blocks.DIAMOND_ORE"
       },
       {
-        "value": "CUSTOM:Tier1"
+        "value": "CUSTOM:Tier2"
       },
       {
-        "value": "Items.EMERALD"
+        "value": "Items.BLAZE_POWDER"
       },
       {
-        "value": "Blocks.IRON_BLOCK"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ConcreteCompoundBlock"
+        "value": "Blocks.EMERALD_ORE"
       },
       {
-        "value": "Blocks.IRON_BLOCK"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tier2"
+      "value": "CUSTOM:Tier3"
     },
-    "name": "tier_2_recipe",
+    "name": "tier_3_recipe",
     "namespace": "mod"
   }
 }

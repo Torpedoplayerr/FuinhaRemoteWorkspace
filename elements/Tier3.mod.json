@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hhhh",
-    "customModelName": "Normal",
-    "name": "Tier 2",
-    "rarity": "RARE",
+    "texture": "oig9",
+    "customModelName": "Tool",
+    "name": "Tier 3",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:Fuinha"
     },
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

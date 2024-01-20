@@ -1,6 +1,6 @@
 {
-  "parent": "item/handheld",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "fuinha:items/oig9"
+    "layer0": "fuinha:items/hhhh"
   }
 }
