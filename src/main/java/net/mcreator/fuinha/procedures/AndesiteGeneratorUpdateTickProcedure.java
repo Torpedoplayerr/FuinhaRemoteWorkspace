@@ -16,27 +16,27 @@ import net.mcreator.fuinha.FuinhaMod;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.Map;
 
-public class DirtGeneratorUpdateTickProcedure {
+public class AndesiteGeneratorUpdateTickProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				FuinhaMod.LOGGER.warn("Failed to load dependency world for procedure DirtGeneratorUpdateTick!");
+				FuinhaMod.LOGGER.warn("Failed to load dependency world for procedure AndesiteGeneratorUpdateTick!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				FuinhaMod.LOGGER.warn("Failed to load dependency x for procedure DirtGeneratorUpdateTick!");
+				FuinhaMod.LOGGER.warn("Failed to load dependency x for procedure AndesiteGeneratorUpdateTick!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				FuinhaMod.LOGGER.warn("Failed to load dependency y for procedure DirtGeneratorUpdateTick!");
+				FuinhaMod.LOGGER.warn("Failed to load dependency y for procedure AndesiteGeneratorUpdateTick!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				FuinhaMod.LOGGER.warn("Failed to load dependency z for procedure DirtGeneratorUpdateTick!");
+				FuinhaMod.LOGGER.warn("Failed to load dependency z for procedure AndesiteGeneratorUpdateTick!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -55,7 +55,7 @@ public class DirtGeneratorUpdateTickProcedure {
 				TileEntity _ent = world.getTileEntity(new BlockPos(x, y, z));
 				if (_ent != null) {
 					final int _sltid = (int) (0);
-					final ItemStack _setstack = new ItemStack(Blocks.DIRT);
+					final ItemStack _setstack = new ItemStack(Blocks.ANDESITE);
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(IWorld world, BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);

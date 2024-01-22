@@ -1,9 +1,9 @@
 {
-  "parent": "fuinha:custom/generator3",
+  "parent": "fuinha:custom/generator",
   "textures": {
     "all": "fuinha:blocks/og_top",
     "particle": "fuinha:blocks/og_top",
     "0": "fuinha:blocks/stone",
-    "1": "fuinha:blocks/stone_andesite"
+    "1": "fuinha:blocks/stone_diorite"
   }
 }

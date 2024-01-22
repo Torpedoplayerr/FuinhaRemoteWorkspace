@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stone",
+        "1": "stone_diorite"
+      },
+      "name": "default"
+    }
+  }
+}

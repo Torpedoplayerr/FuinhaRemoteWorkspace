@@ -53,10 +53,10 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.fuinha.procedures.AndesiteGeneratorUpdateTickProcedure;
-import net.mcreator.fuinha.procedures.AndesiteGeneratorBlockIsPlacedByProcedure;
+import net.mcreator.fuinha.procedures.DioriteGeneratorUpdateTickProcedure;
+import net.mcreator.fuinha.procedures.DioriteGeneratorBlockIsPlacedByProcedure;
 import net.mcreator.fuinha.itemgroup.FuinhaItemGroup;
-import net.mcreator.fuinha.gui.AndesiteGeneratorGuiGui;
+import net.mcreator.fuinha.gui.DioriteGeneratorGuiGui;
 import net.mcreator.fuinha.FuinhaModElements;
 
 import javax.annotation.Nullable;
@@ -73,14 +73,14 @@ import java.util.AbstractMap;
 import io.netty.buffer.Unpooled;
 
 @FuinhaModElements.ModElement.Tag
-public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
-	@ObjectHolder("fuinha:dirt_generator")
+public class DioriteGeneratorBlock extends FuinhaModElements.ModElement {
+	@ObjectHolder("fuinha:diorite_generator")
 	public static final Block block = null;
-	@ObjectHolder("fuinha:dirt_generator")
+	@ObjectHolder("fuinha:diorite_generator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
-	public DirtGeneratorBlock(FuinhaModElements instance) {
-		super(instance, 213);
+	public DioriteGeneratorBlock(FuinhaModElements instance) {
+		super(instance, 201);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -93,7 +93,8 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("dirt_generator"));
+			event.getRegistry()
+					.register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("diorite_generator"));
 		}
 	}
 
@@ -107,7 +108,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 4f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("dirt_generator");
+			setRegistryName("diorite_generator");
 		}
 
 		@Override
@@ -144,7 +145,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			AndesiteGeneratorUpdateTickProcedure.executeProcedure(Stream
+			DioriteGeneratorUpdateTickProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -158,7 +159,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			AndesiteGeneratorBlockIsPlacedByProcedure.executeProcedure(Stream
+			DioriteGeneratorBlockIsPlacedByProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -175,12 +176,12 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Andesite Generator");
+						return new StringTextComponent("Diorite Generator");
 					}
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new AndesiteGeneratorGuiGui.GuiContainerMod(id, inventory,
+						return new DioriteGeneratorGuiGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -294,7 +295,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("dirt_generator");
+			return new StringTextComponent("diorite_generator");
 		}
 
 		@Override
@@ -304,12 +305,12 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new AndesiteGeneratorGuiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new DioriteGeneratorGuiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Andesite Generator");
+			return new StringTextComponent("Diorite Generator");
 		}
 
 		@Override

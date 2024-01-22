@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "generator3:default",
+    "customModelName": "generator2:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Andesite Generator",
+    "name": "Cobblestone Generator",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 4.0,
@@ -107,7 +107,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "AndesiteGeneratorGui",
+    "guiBoundTo": "CobblestoneGeneratorGui",
     "openGUIOnRightClick": true,
     "inventorySize": 1,
     "inventoryStackSize": 64,
@@ -126,10 +126,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "AndesiteGeneratorUpdateTick"
+      "name": "CobblestoneUpdateTick"
     },
     "onBlockPlayedBy": {
-      "name": "AndesiteGeneratorBlockIsPlacedBy"
+      "name": "CobblestoneGeneratorBlockIsPlacedBy"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

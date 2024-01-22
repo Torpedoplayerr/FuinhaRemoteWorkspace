@@ -73,14 +73,14 @@ import java.util.AbstractMap;
 import io.netty.buffer.Unpooled;
 
 @FuinhaModElements.ModElement.Tag
-public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
-	@ObjectHolder("fuinha:dirt_generator")
+public class AndesiteGeneratorBlock extends FuinhaModElements.ModElement {
+	@ObjectHolder("fuinha:andesite_generator")
 	public static final Block block = null;
-	@ObjectHolder("fuinha:dirt_generator")
+	@ObjectHolder("fuinha:andesite_generator")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
-	public DirtGeneratorBlock(FuinhaModElements instance) {
-		super(instance, 213);
+	public AndesiteGeneratorBlock(FuinhaModElements instance) {
+		super(instance, 209);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -93,7 +93,8 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("dirt_generator"));
+			event.getRegistry()
+					.register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("andesite_generator"));
 		}
 	}
 
@@ -107,7 +108,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 4f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
-			setRegistryName("dirt_generator");
+			setRegistryName("andesite_generator");
 		}
 
 		@Override
@@ -294,7 +295,7 @@ public class DirtGeneratorBlock extends FuinhaModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("dirt_generator");
+			return new StringTextComponent("andesite_generator");
 		}
 
 		@Override

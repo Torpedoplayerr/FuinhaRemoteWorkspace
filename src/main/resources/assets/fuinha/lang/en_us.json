@@ -1,6 +1,6 @@
 {
-  "block.fuinha.magenta_rough_concrete": "Magenta Rough Concrete",
   "block.fuinha.cracked_bricky_stone_bricks_stairs": "Cracked Bricky Stone Bricks Stairs",
+  "block.fuinha.magenta_rough_concrete": "Magenta Rough Concrete",
   "subtitles.tiro_bloco": "",
   "block.fuinha.purple_smooth_concrete": "Purple Smooth Concrete",
   "item.fuinha.cleaner": "Cleaner",
@@ -8,6 +8,7 @@
   "block.fuinha.concrete_compound_block": "Concrete Compound Block",
   "block.fuinha.light_gray_smooth_concrete": "Light Gray Smooth Concrete",
   "block.fuinha.pink_rough_concrete": "Pink Rough Concrete",
+  "block.fuinha.diorite_generator": "Diorite Generator",
   "block.fuinha.lime_rough_concrete": "Lime Rough Concrete",
   "block.fuinha.cobblestone_pathway_stairs": "Cobblestone Pathway",
   "item.fuinha.tier_2": "Tier 2",
@@ -48,6 +49,7 @@
   "itemGroup.tabfuinha_blocks": "Fuinha\u0027s Blocks",
   "block.fuinha.smooth_sand_stone": "Smooth SandStone",
   "item.fuinha.mp_40_unreloaded": "MP40 Unloaded",
+  "block.fuinha.cobblestone_generator": "Cobblestone Generator",
   "effect.blind": "Blind",
   "block.fuinha.black_smooth_concrete": "Black Smooth Concrete",
   "subtitles.reload": "",
@@ -67,12 +69,13 @@
   "block.fuinha.cobblestone_pathway_slab": "Cobblestone Pathway",
   "block.fuinha.smooth_granite_tiles": "Smooth Diorite",
   "block.fuinha.bricky_stone_bricks_stairs": "Bricky Stone Bricks Stairs",
+  "block.fuinha.andesite_generator": "Andesite Generator",
   "block.fuinha.blue_smooth_concrete": "Blue Smooth Concrete",
   "block.fuinha.gray_smooth_concrete": "Gray Smooth Concrete",
   "item.fuinha.projectile_9mm": "Projectile 9mm",
   "block.fuinha.pathway_cobblestone": "Cobblestone Pathway",
   "block.fuinha.sandstone_tiles": "SandStone Tiles",
   "block.fuinha.rough_concrete": "Rough Concrete",
-  "block.fuinha.dirt_generator": "Dirt Generator",
+  "block.fuinha.dirt_generator": "Andesite Generator",
   "item.fuinha.raw_concrete_compound": "Raw Concrete Compound"
 }

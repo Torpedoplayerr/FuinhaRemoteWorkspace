@@ -36,12 +36,12 @@ import java.util.Map;
 import java.util.HashMap;
 
 @FuinhaModElements.ModElement.Tag
-public class DirtGeneratorGUiGui extends FuinhaModElements.ModElement {
+public class AndesiteGeneratorGuiGui extends FuinhaModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 
-	public DirtGeneratorGUiGui(FuinhaModElements instance) {
-		super(instance, 195);
+	public AndesiteGeneratorGuiGui(FuinhaModElements instance) {
+		super(instance, 212);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -53,13 +53,13 @@ public class DirtGeneratorGUiGui extends FuinhaModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("dirt_generator_g_ui"));
+			event.getRegistry().register(containerType.setRegistryName("andesite_generator_gui"));
 		}
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, DirtGeneratorGUiGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, AndesiteGeneratorGuiGuiWindow::new));
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {

@@ -18,13 +18,13 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class DirtGeneratorGUiGuiWindow extends ContainerScreen<DirtGeneratorGUiGui.GuiContainerMod> {
+public class DirtGeneratorGuiGuiWindow extends ContainerScreen<DirtGeneratorGuiGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = DirtGeneratorGUiGui.guistate;
+	private final static HashMap guistate = DirtGeneratorGuiGui.guistate;
 
-	public DirtGeneratorGUiGuiWindow(DirtGeneratorGUiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public DirtGeneratorGuiGuiWindow(DirtGeneratorGuiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,7 +35,7 @@ public class DirtGeneratorGUiGuiWindow extends ContainerScreen<DirtGeneratorGUiG
 		this.ySize = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("fuinha:textures/screens/dirt_generator_g_ui.png");
+	private static final ResourceLocation texture = new ResourceLocation("fuinha:textures/screens/dirt_generator_gui.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {

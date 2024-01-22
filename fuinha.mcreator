@@ -2567,53 +2567,6 @@
       "path": "~/Fuinha/Extras/Cobblestone/BrickyCobblestone"
     },
     {
-      "name": "DirtGenerator",
-      "type": "block",
-      "sortid": 194,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_generator",
-      "path": "~/Fuinha/Extras/Generators"
-    },
-    {
-      "name": "DirtGeneratorGUi",
-      "type": "gui",
-      "sortid": 195,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_generator_g_ui",
-      "path": "~/Fuinha/Extras/Generators"
-    },
-    {
-      "name": "DirtGeneratorUpdateTick",
-      "type": "procedure",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_generator_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Fuinha/Extras/Generators"
-    },
-    {
       "name": "Tier3",
       "type": "item",
       "sortid": 197,
@@ -2648,6 +2601,346 @@
       "locked_code": false,
       "registry_name": "tier_2_recipe",
       "path": "~/Fuinha/Extras/Tiers"
+    },
+    {
+      "name": "DioriteGenerator",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_generator",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DioriteGeneratorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_generator_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DioriteGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DioriteGeneratorGui",
+      "type": "gui",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_generator_gui",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "CobblestoneGeneratorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "CobblestoneUpdateTick",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "CobblestoneGeneratorGui",
+      "type": "gui",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_gui",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "CobblestoneGenerator",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "AndesiteGenerator",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_generator",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "AndesiteGeneratorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_generator_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "AndesiteGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "AndesiteGeneratorGui",
+      "type": "gui",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_generator_gui",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DirtGenerator",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorGui",
+      "type": "gui",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_gui",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DioriteGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_generator_recipe",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "CobblestoneGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_generator_recipe",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "AndesiteGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite_generator_recipe",
+      "path": "~/Fuinha/Extras/Generators"
+    },
+    {
+      "name": "DirtGeneratorRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_generator_recipe",
+      "path": "~/Fuinha/Extras/Generators"
     }
   ],
   "variable_elements": [
@@ -2710,8 +3003,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.fuinha.magenta_rough_concrete": "Magenta Rough Concrete",
       "block.fuinha.cracked_bricky_stone_bricks_stairs": "Cracked Bricky Stone Bricks Stairs",
+      "block.fuinha.magenta_rough_concrete": "Magenta Rough Concrete",
       "subtitles.tiro_bloco": "",
       "block.fuinha.purple_smooth_concrete": "Purple Smooth Concrete",
       "item.fuinha.cleaner": "Cleaner",
@@ -2719,6 +3012,7 @@
       "block.fuinha.concrete_compound_block": "Concrete Compound Block",
       "block.fuinha.light_gray_smooth_concrete": "Light Gray Smooth Concrete",
       "block.fuinha.pink_rough_concrete": "Pink Rough Concrete",
+      "block.fuinha.diorite_generator": "Diorite Generator",
       "block.fuinha.lime_rough_concrete": "Lime Rough Concrete",
       "block.fuinha.cobblestone_pathway_stairs": "Cobblestone Pathway",
       "item.fuinha.tier_2": "Tier 2",
@@ -2759,6 +3053,7 @@
       "itemGroup.tabfuinha_blocks": "Fuinha\u0027s Blocks",
       "block.fuinha.smooth_sand_stone": "Smooth SandStone",
       "item.fuinha.mp_40_unreloaded": "MP40 Unloaded",
+      "block.fuinha.cobblestone_generator": "Cobblestone Generator",
       "effect.blind": "Blind",
       "block.fuinha.black_smooth_concrete": "Black Smooth Concrete",
       "subtitles.reload": "",
@@ -2778,13 +3073,14 @@
       "block.fuinha.cobblestone_pathway_slab": "Cobblestone Pathway",
       "block.fuinha.smooth_granite_tiles": "Smooth Diorite",
       "block.fuinha.bricky_stone_bricks_stairs": "Bricky Stone Bricks Stairs",
+      "block.fuinha.andesite_generator": "Andesite Generator",
       "block.fuinha.blue_smooth_concrete": "Blue Smooth Concrete",
       "block.fuinha.gray_smooth_concrete": "Gray Smooth Concrete",
       "item.fuinha.projectile_9mm": "Projectile 9mm",
       "block.fuinha.pathway_cobblestone": "Cobblestone Pathway",
       "block.fuinha.sandstone_tiles": "SandStone Tiles",
       "block.fuinha.rough_concrete": "Rough Concrete",
-      "block.fuinha.dirt_generator": "Dirt Generator",
+      "block.fuinha.dirt_generator": "Andesite Generator",
       "item.fuinha.raw_concrete_compound": "Raw Concrete Compound"
     }
   },
